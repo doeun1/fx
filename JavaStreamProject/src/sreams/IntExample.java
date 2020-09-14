@@ -17,5 +17,10 @@ public class IntExample {
 		.sum();
 		System.out.println(sum);
 		
+		
+		IntStream.range(1, 10).forEach(s -> System.out.println(s));
+		System.out.println("--rangeClosed");
+		IntStream.rangeClosed(1, 10).filter(n -> n>5)//filter타입은 
+		.forEach(System.out::println);
 	}
 }

@@ -1,8 +1,6 @@
 package sreams;
 
 import java.util.Arrays;
-import java.util.function.IntConsumer;
-import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
 
 public class FromArrayExample {
